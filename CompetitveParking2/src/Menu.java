@@ -36,7 +36,7 @@ public class Menu {
     }
 
     Menu(MenuWindow aThis) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        window = aThis;
     }
 
     public void setDifficulty (int diff){
